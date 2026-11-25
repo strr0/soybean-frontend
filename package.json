@@ -28,11 +28,11 @@
   "type": "module",
   "scripts": {
     "build": "vp build --mode prod",
-    "build:test": "vp build --mode test",
+    "build:dev": "vp build --mode dev",
     "cleanup": "pnpm sa cleanup",
     "commit": "pnpm sa git-commit",
     "commit:zh": "pnpm sa git-commit -l=zh-cn",
-    "dev": "vp dev --mode test",
+    "dev": "vp dev --mode dev",
     "dev:prod": "vp dev --mode prod",
     "fmt": "vp fmt",
     "gen-route": "pnpm sa gen-route",
